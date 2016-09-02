@@ -1,0 +1,76 @@
+#grid td {
+	height: 2px; width: 2px;
+	background-color: rgb(170, 170, 170);
+}
+
+#grid:hover td {
+	background-color: black;
+}
+
+#navbar {
+	height: 30px;
+	width: 100%;
+	font-size: 13px;
+
+}
+
+.navigation ul {
+	height: 30px;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	float: right;
+
+}
+
+.navigation li {
+	display: inline-block;
+	height: 30px;
+	margin: 0 10px;
+}
+
+.navigation li:hover {
+	text-decoration: underline;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+	margin: 0;
+	-webkit-appearance: none;
+}
+
+#signin {
+	background-color: #4285F4;
+	width: 69.34px; height: 30px;
+	color: white;
+	font-weight: 500;
+	line-height: 30px;
+	text-align: center;
+	border-radius: 2px;
+}
+
+#signin:hover {
+	text-decoration: underline;
+	text-decoration-color: white;
+}
+
+#logo img{
+	float: center;
+	height: 92px; width: 272px;
+}
+
+#logo div {
+	float: center;
+	margin: 0 auto auto;
+}
+
+#searchbar {
+	resize: none;
+	width: 525px; height: 26px;
+}
+
+.main {
+	text-align: center;
+	clear: all;
+}
